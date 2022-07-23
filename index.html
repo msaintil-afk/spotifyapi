@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Poster Project</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/main.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest"> 
+</head>
+<body>
+    <!-- Start of Project Container -->
+    <div class="container">
+        <h1>My Movie Sound Track</h1>
+        <button onclick="stopSnippet();">Stop Song</button>
+        <!-- Gallery Of Images -->
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id, event)"><img src="/images/puple-rain-poster.jpg" alt="purple rain" class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id, event)"><img src="/images/badboys-poster.jpg" alt="shake ya Tailfeather" class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id, event)"><img src="/images/Stranger-Things-Season-4-Story.jpg" alt="running up that hill" class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id, event)"><img src="/images/petit.jpeg" alt="petit martin nto" class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id, event)"><img src="/images/starling.jpeg" alt="starling nto" class="gallery__img"></figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id, event)"><img src="/images/Us-poster.jpg" alt="i got five on it" class="gallery__img"></figure>
+        </div>
+    </div>
+</body>
+</html>
